@@ -4,7 +4,7 @@
 The Gold Layer represents business_level data, organized to support analytics and reporting. It includes **dimension tables** and **fact tables** focused on key business metrics.
 ---
 
-## 1. **gold_dim_customers**
+### 1. **gold_dim_customers**
 - **Purpose:** Contains customer information enhanced with demographic and geographic attributes.
 - **Columns:**
 
@@ -23,7 +23,7 @@ The Gold Layer represents business_level data, organized to support analytics an
 
 ---
 
-## 2. **gold_dim_products**
+### 2. **gold_dim_products**
 - **Purpose:** Provides information about the products and it's attribiutes.
 - **Columns:**
 
@@ -43,8 +43,7 @@ The Gold Layer represents business_level data, organized to support analytics an
 
 ---
 
-
-## 2. **gold_fact_sales**
+### 3. **gold_fact_sales**
 - **Purpose:** Stores transactional sales data for analytical purposes
 - **Columns:**
 
@@ -59,4 +58,3 @@ The Gold Layer represents business_level data, organized to support analytics an
 | sales_amount     | INT           | Total Monetary value of the sale for the line item, in whole currency units (e.g., 85).        |
 | quantity         | INT           | Number of units of the product ordered for the line item (e.g., 1).                            |
 | price            | INT           | Price per unit of the product for the line item, in whole currency units (e.g., 85).           |
-
