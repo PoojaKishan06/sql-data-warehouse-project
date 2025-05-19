@@ -1,7 +1,7 @@
 # Data Catalog for Gold Layer
 
 ## Overview
-The Gold Layer represents business_level data, organized to support analytics and reporting. It includes **dimension tables** and **fact tables** focused on key business metrics.
+The Gold Layer represents business-level data, organized to support analytics and reporting. It includes **dimension tables** and **fact tables** focused on key business metrics.
 ---
 
 ## 1. **gold_dim_customers**
